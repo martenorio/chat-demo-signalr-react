@@ -1,0 +1,31 @@
+#root {
+  text-align: center;
+}
+main{
+  height: 100vh;
+}
+header{
+  height: 20vh;
+  /* min-height: 140px; */
+  /* padding: 0 1em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.history-messages{
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 160px 1fr 70px; 
+  gap: 0px 0px; 
+  justify-content: center;
+  margin: 0 2em
+}

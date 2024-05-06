@@ -1,0 +1,56 @@
+.btn-send-message {
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: auto;
+  padding: revert;
+  background-color: #93c5fd;
+}
+
+.input-message {
+  flex: 100%;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.form-container {
+  max-width: 580px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+
+  position: fixed;
+  bottom: 10px;
+  right: 1em;
+  left: 1em;
+}
+
+.form-send-message {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 1em;
+  width: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  .btn-send-message {
+    /* border: solid 1px #3b82f6; */
+    background-color: #dbeafe;
+  }
+  .input-message {
+    background-color: #f1f5f9;
+  }
+}

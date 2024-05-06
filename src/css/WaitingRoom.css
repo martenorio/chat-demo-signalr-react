@@ -1,0 +1,13 @@
+.my-login-chat{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  align-self: center;
+  justify-content: center;
+}
+.container-login{
+  width: 100%;
+}
